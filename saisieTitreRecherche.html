@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Titre recherche un film</title>
+        <link rel="stylesheet" href="style/vod.css">
+    </head>
+    <body>
+        
+        <ul class="barre_de_navigation">
+        <ul><a href="vod.html"><button>Revenir à la page d'acceuil</button></a>
+        </ul>
+        <h1>VOD</h1>
+        <form action="rechercherFilm.php" method="POST" name="recherche" >
+            <legend>Films</legend>
+            <input type="search" name="nomFilm" id="maRecherche" size="50" placeholder="Recherche nom du films, année , nom des stars..."/>
+            <input type="submit" name ="valider" value ="rechercher">
+        </form>
+
+

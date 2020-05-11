@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ajouter un film</title>
+        <link rel="stylesheet" href="style/vod.css">
+    </head>
+ 
+	<ul class="barre_de_navigation">
+        <ul><a href="vod.html"><button>Revenir à la page d'acceuil</button></a>
+        </ul>
+        <h1>Ajouter un film</h1>
+        <form action="ajouterFilm.php" method="POST" name="ajouter" >
+            <legend>Films</legend>
+            <input type="search" name="nomFilm" id="maRecherche" size="50" placeholder="Rechercher les informations d'un film qui se trouve dans la liste"/>
+            <input type="submit" name ="valider" value ="rechercher">
+        </form>
